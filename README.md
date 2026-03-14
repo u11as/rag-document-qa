@@ -1,7 +1,7 @@
 # 📄 Document QA System using RAG
 
 A Retrieval-Augmented Generation (RAG) application that lets you upload any PDF
-and ask natural language questions grounded in the document's content.
+and ask natural language questions grounded in the document's content
 
 **Stack:** Streamlit · LangChain · FAISS · HuggingFace Embeddings · Groq (Free LLM)
 
