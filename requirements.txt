@@ -1,0 +1,28 @@
+# Core
+streamlit>=1.35.0
+python-dotenv>=1.0.0
+
+# LangChain ecosystem
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-core>=0.2.0
+langchain-text-splitters>=0.2.0
+
+# PDF loading
+pypdf>=4.0.0
+
+# Embeddings
+sentence-transformers>=2.7.0
+
+# Vector store
+faiss-cpu>=1.8.0
+
+# LLM providers (choose what you need)
+groq>=0.9.0          # FREE — recommended
+openai>=1.30.0       # PAID — optional
+
+# HTTP (for HuggingFace inference fallback)
+requests>=2.31.0
+
+# Pydantic (LangChain requires v2)
+pydantic>=2.7.0
